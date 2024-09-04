@@ -1,6 +1,9 @@
 package com.heuy.kt.dto;
 
-public record BookRequest(
+import lombok.Builder;
+
+@Builder
+public record BookResponse(
         String title,
         String description,
         String author,

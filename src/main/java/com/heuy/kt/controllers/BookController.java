@@ -3,7 +3,6 @@ package com.heuy.kt.controllers;
 import com.heuy.kt.dto.CustomerResponse;
 import com.heuy.kt.services.CustomerService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,9 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("ap1/v1/")
+@RequestMapping("ap1/v1/books")
 @RequiredArgsConstructor
-public class CustomerController {
+public class BookController {
     private final CustomerService customerService;
 
     @GetMapping("customers")

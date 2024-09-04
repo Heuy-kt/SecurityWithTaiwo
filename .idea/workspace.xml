@@ -4,18 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f780227-05c9-494a-9053-e8ac799d9b30" name="Changes" comment="" />
+    <list default="true" id="7f780227-05c9-494a-9053-e8ac799d9b30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/CustomErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/web/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/web/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/controllers/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/controllers/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/BookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/BookRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/BookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/BookResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/CustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/CustomerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/CustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/CustomerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Plan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/repo/BookRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/repo/BookRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/repo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/repo/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/jwt/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/jwt/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/jwt/JWTService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/jwt/JWTService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/services/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lC5ueTjP0D4D3qXFy9E0wt9wTP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,11 +68,43 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.heuy.kt.models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.heuy.kt.exception" />
+      <recent name="com.heuy.kt.controllers" />
+      <recent name="com.heuy.kt.dto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heuy.kt.Main" />
+      <module name="PracticeSecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heuy.kt.repo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

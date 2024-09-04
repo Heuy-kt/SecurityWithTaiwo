@@ -1,0 +1,21 @@
+server:
+  port: 9999
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+  application:
+    name: spring security application
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security_test
+    username: postgres
+    password: psql
+    driver-class-name: org.postgresql.Driver

@@ -1,9 +1,15 @@
 package com.heuy.kt.dto;
 
+import com.heuy.kt.models.Role;
 import lombok.Builder;
 
+
 @Builder
-public record CustomerRequest(
+public record CustomerResponse(
+        String token,
+        String email,
         String name,
-        String email
+        String password,
+        Role role
+
 ){}

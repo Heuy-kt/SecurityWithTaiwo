@@ -1,2 +1,8 @@
-package com.heuy.kt.models;public class Plan {
+package com.heuy.kt.models;
+
+public enum Plan {
+    BASIC,
+    PREMIUM,
+    PREMIUM_SUIT,
+    DELUXE
 }
