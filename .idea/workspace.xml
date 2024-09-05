@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f780227-05c9-494a-9053-e8ac799d9b30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/AuthenticationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/CustomAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/CustomErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/web/SecurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/web/SecurityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/controllers/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/controllers/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/BookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/BookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/BookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/BookResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/CustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/CustomerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/CustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/dto/CustomerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/exception/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Plan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/repo/BookRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/repo/BookRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/repo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/repo/CustomerRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/jwt/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/jwt/JWTAuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/jwt/JWTService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/security/jwt/JWTService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/heuy/kt/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/heuy/kt/services/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
