@@ -2,6 +2,19 @@ server:
   port: 9999
 
 spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "ffamexyz@gmail.com"
+    password: "jzbf clew btkv tktt"
+    properties:
+      mail:
+        debug: true
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
   jpa:
     properties:
       hibernate:
@@ -11,11 +24,10 @@ spring:
     hibernate:
       ddl-auto: create
 
-
   application:
     name: spring security application
   datasource:
-    url: jdbc:postgresql://localhost:5432/security_test
+    url: jdbc:postgresql://localhost/security_test
     username: postgres
     password: psql
     driver-class-name: org.postgresql.Driver

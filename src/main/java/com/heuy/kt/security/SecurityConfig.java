@@ -1,6 +1,7 @@
 package com.heuy.kt.security;
 
 import com.heuy.kt.exception.CustomAccessDeniedHandler;
+import com.heuy.kt.models.Role;
 import com.heuy.kt.security.jwt.JWTAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -18,6 +19,8 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.HttpStatusEntryPoint;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+import static com.heuy.kt.models.Role.BASIC;
+
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
@@ -32,6 +35,8 @@ public class SecurityConfig {
                 .authorizeHttpRequests(req ->
                         req.requestMatchers("security/login/**", "security/register/**")
                                 .permitAll()
+//                                .requestMatchers("ap1/v1/books/customers")
+//                                .hasRole(BASIC.name())
                                 .anyRequest()
                                 .authenticated()
                 )

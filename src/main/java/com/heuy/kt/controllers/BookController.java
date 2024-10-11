@@ -1,13 +1,13 @@
 package com.heuy.kt.controllers;
 
+import com.heuy.kt.dto.BookDto;
+import com.heuy.kt.dto.BookResponse;
 import com.heuy.kt.dto.CustomerResponse;
+import com.heuy.kt.services.BookService;
 import com.heuy.kt.services.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -15,16 +15,21 @@ import java.util.List;
 @RequestMapping("ap1/v1/books")
 @RequiredArgsConstructor
 public class BookController {
-    private final CustomerService customerService;
+    private final BookService bookService;
 
-    @GetMapping("customers")
-    public ResponseEntity<List<CustomerResponse>> getCustomers(){
-        return ResponseEntity.ok(customerService.getAllCustomer());
+    @GetMapping("books")
+    public ResponseEntity<List<BookResponse>> getBooks(){
+        return ResponseEntity.ok(bookService.getAllBooks());
     }
 
-    @GetMapping("customer/{email}")
-    public ResponseEntity<CustomerResponse> getCustomer(@PathVariable("email") String email){
-        return ResponseEntity.ok(customerService.getCustomer(email));
+    @GetMapping("books/{title}")
+    public ResponseEntity<BookResponse> getBook(@PathVariable("title") String title){
+        return ResponseEntity.ok(bookService.getBook(title));
+    }
+
+    @PostMapping("create")
+    public ResponseEntity<String> addBook(@RequestBody BookDto bookDto){
+        return ResponseEntity.ok(bookService.createBook(bookDto));
     }
 
 }
